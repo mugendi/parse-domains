@@ -1,0 +1,33 @@
+{
+  "name": "parse-domains",
+  "version": "1.0.1",
+  "description": "Splits an url into sub-domain, domain and top-level-domain: Code based on : https://github.com/peerigon/parse-domain with extra edits to deal with errors and add dtld parameter",
+  "main": "./lib/parseDomain.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mugendi/parse-domains.git"
+  },
+  "keywords": [
+    "domain",
+    "url",
+    "sub-domain",
+    "tld",
+    "parse",
+    "extract",
+    "sanitize",
+    "country",
+    "top-level"
+  ],
+  "author": "Anthony Mugendi (ngurumugz@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mugendi/parse-domains/issues"
+  },
+  "homepage": "https://github.com/mugendi/parse-domains"
+}
