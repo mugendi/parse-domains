@@ -1,6 +1,6 @@
 {
   "name": "parse-domains",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Splits an url into sub-domain, domain and top-level-domain: Code based on : https://github.com/peerigon/parse-domain with extra edits to deal with errors and add dtld parameter",
   "main": "./lib/parseDomain.js",
   "directories": {
@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/mugendi/parse-domains/issues"
   },
-  "homepage": "https://github.com/mugendi/parse-domains"
+  "homepage": "https://github.com/mugendi/parse-domains",
+  "dependencies": {
+    "url": "^0.11.0"
+  }
 }
